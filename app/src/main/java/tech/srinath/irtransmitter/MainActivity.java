@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
             int frequency = 38029;
 
             IR.transmit(frequency, pattern);
+            transmit.setText("SENT");
 
         }
     };
